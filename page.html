@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌱Adopt a Plant🌱</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Finlandica&amp;family=Lilita+One&amp;display=swap"
+    rel="stylesheet">
+  <style>
+    a:hover {
+      color: #008b85;
+      text-decoration: underline;
+      text-shadow: 0px 5px 10px #ffffff60;
+    }
+
+    body {
+      margin: 0 auto;
+      background: linear-gradient(0deg, #dfe881 0%, #fbed96 100%);
+    }
+
+    button {
+      font-family: "Finlandica", sans-serif;
+      display: block;
+      margin: 30px auto 30px auto;
+      padding: 20px;
+      font-size: 18px;
+      background: transparent;
+      color: #008b85;
+      border: 1px solid #008b85;
+      border-radius: 30px;
+      transition: all 200ms ease-in-out;
+    }
+
+    button:hover {
+      background: #008b85;
+      color: #fff;
+      box-shadow: 0px 5px 10px #e881ce;
+      cursor: pointer;
+    }
+
+    h1,
+    h2 {
+      font-family: "Lilita One", cursive;
+      color: rgb(86, 86, 86);
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    img {
+      width: 50%;
+    }
+
+    main {
+      margin: 0 auto;
+    }
+
+    nav {
+      background-color: #e881ce;
+      width: 100%;
+      padding: 0.2px 0;
+      background: transparent url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/553/original/jaja5-01-01.png?1657037593") repeat-x;
+    }
+
+    nav a {
+      color: rgb(86, 86, 86);
+      text-decoration: none;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 5px;
+      margin-bottom: 25px;
+    }
+
+    nav li {
+      display: inline-block;
+      padding-right: 40px;
+    }
+
+    p {
+      font-family: "Finlandica", sans-serif;
+      text-align: justify;
+      text-align-last: left;
+      color: rgb(86, 86, 86);
+      font-size: 25px;
+      font-weight: 30px;
+    }
+
+    span {
+      font-family: "Finlandica", sans-serif;
+    }
+
+    table {
+      border-spacing: 20px;
+    }
+
+    #navbar {
+      position: sticky;
+      top: 0;
+    }
+
+    .wrapper {
+      width: 1000px;
+      margin: 0 auto;
+    }
+
+    .heading-title {
+      font-size: 40px;
+      color: #008b85;
+      padding-top: 60px;
+    }
+
+    .main-heading {
+      margin-top: 0;
+    }
+
+    .green-text {
+      color: #008b85;
+      font-family: "Lilita One", cursive;
+    }
+
+    .heading-img {
+      width: 40%;
+    }
+
+    .td-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .adopt-header {
+      margin: 25px auto;
+      text-align: center;
+    }
+
+    .offer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 50px;
+    }
+
+    .table-content {
+      width: 100%;
+    }
+
+    .offer-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .column-offer {
+      float: left;
+      width: 33.33%;
+      text-align: center;
+      background: transparent;
+      border-style: none;
+      border-radius: 50px;
+      transition-property: all;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+    }
+
+    .column-offer:hover {
+      background: #ffffff50;
+      cursor: pointer;
+      transform: scale(105%);
+    }
+
+    .column-gallery {
+      float: left;
+      width: 33.33%;
+      text-align: center;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .row {
+      margin-bottom: 20px;
+    }
+
+    .rescued-plant {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .footer-text {
+      text-align: right;
+      font-family: "Finlandica", sans-serif;
+      font-size: 15px;
+    }
+
+    .credits {
+      margin: 20px auto;
+      display: block;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body cz-shortcut-listen="true">
+  <nav id="navbar">
+    <ul class="footer-text">
+      <li>
+        <a href="#impact"><b>Go green</b></a>
+      </li>
+      <li>
+        <a href="#adopt"><b>How to:Adopt</b></a>
+      </li>
+      <li>
+        <a href="#giveAway"><b>How to:Give away</b></a>
+      </li>
+      <li>
+        <a href="#takeCare"><b>Care guidance</b></a>
+      </li>
+      <li>
+        <a href="#ourOffer"><b>Our offer</b></a>
+      </li>
+      <li>
+        <a href="#plantGallery"><b>Gellery</b></a>
+      </li>
+    </ul>
+  </nav>
+  <div class="wrapper">
+    <div class="adopt-header">
+      <img class="heading-img"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/338/original/img-heading.png?1656870561">
+      <h1 class="main-heading" id="newHeading">
+        Adopt a plant.<br><span class="green-text"><em>Get yourself a green friend today!</em></span>
+      </h1>
+      <h2>
+        Rescue a potted plant. Join a community of people who are trying to
+        give their plant a second life ✨
+      </h2>
+      <button>Let's start!🌺</button>
+    </div>
+    <main>
+      <div class="row-1">
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <div class="table-content">
+                <h2 id="impact" class="heading-title">
+                  The impact of greenery
+                </h2>
+                <p>
+                  Greenery can contribute to reducing the amount of noise
+                  pollution experienced by residents. Greenery in our living
+                  environment benefits more than just our health and
+                  well-being. It also facilitates water management and
+                  promotes biodiversity in built-up areas, and can help reduce
+                  the effects of noise pollution.
+                </p>
+              </div>
+            </td>
+            <td>
+              <img class="td-img"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/340/original/world.png?1656871277">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <img class="td-img"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/343/original/girls.png?1656873497">
+            </td>
+            <td>
+              <div class="table-content">
+                <h2 id="adopt" class="heading-title">How to adopt a plant?</h2>
+                <p>
+                  Our service is free. There is no charge for giving, posting or
+                  receiving. If a our member sees a plant they want, they
+                  contact the owner directly through our website and make
+                  arrangements to pick up or dig up the plant. If they dig it
+                  up, they fill the hole as best they can and leave things tidy.
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="table-content">
+                <h2 id="giveAway" class="heading-title">
+                  How to give away a plant?
+                </h2>
+                <p>
+                  If you are interested in donating unwanted plants, this page
+                  is a perfect place for you. Create a member account and set
+                  your profile up. Since the adoption of the plant takes place
+                  face to face, it's important you choose your location. Take a
+                  picture of your plant and upload it on the server. Mention the
+                  name of it, age, condition and other details that might be
+                  helpful for the future "parent". As soon as you post it every
+                  member can see it and now you just wait!
+                </p>
+              </div>
+            </td>
+            <td>
+              <img class="td-img"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/344/original/give.png?1656873649">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="td-img"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/636/original/girl.png?1657102770">
+            </td>
+            <td>
+              <div class="table-content">
+                <h2 id="takeCare" class="heading-title">
+                  How to take care of my new plant?
+                </h2>
+                <p>
+                  Here are our best tips to keep houseplants alive. Choose the
+                  Correct Pot. Drainage is extremely important for your plant.
+                  Use Good Potting Soil. Watering: Not Too Much and Not Too
+                  Little. Give Them Plenty of Light. Keep Your Pet Away. Learn
+                  About Your Plant and what it needs specifically. Keep an Eye
+                  on the Temperature. In most cases you should ask the prevoius
+                  owner what he did to take care of the plant.
+                </p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 id="ourOffer" class="offer">What are you looking for?</h2>
+      <div class="row">
+        <div class="column-offer">
+          <img class="offer-img"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/633/original/icon2-01-01.png?1657102561"><span>potted
+            plants</span>
+        </div>
+        <div class="column-offer">
+          <img width="349" class="offer-img"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/631/original/icon1-01.png?1657102457"><span>garden
+            plants</span>
+        </div>
+        <div class="column-offer">
+          <img class="offer-img"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/039/634/original/icon3-01.png?1657102620"><span>accessories</span>
+        </div>
+      </div>
+      <h2 id="plantGallery" class="offer">
+        We were rescued and now we bloom! (gallery)
+      </h2>
+      <div class="row">
+        <div class="column-gallery">
+          <img class="rescued-plant" src="https://i.pinimg.com/736x/3f/c9/40/3fc940d98b38a454d467ceb9254b4034.jpg">
+        </div>
+        <div class="column-gallery">
+          <img class="rescued-plant"
+            src="https://www.cocaflora.com/environment/cache/images/500_500_productGfx_18244/Pilea-peperomioides-Mojito.jpg">
+        </div>
+        <div class="column-gallery">
+          <img class="rescued-plant"
+            src="https://littleprinceplants.com/wp-content/uploads/2019/07/Pilea-glauca-July4.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-gallery">
+          <img class="rescued-plant"
+            src="https://i.etsystatic.com/22605970/r/il/041bb3/2617009492/il_570xN.2617009492_p8oz.jpg">
+        </div>
+        <div class="column-gallery">
+          <img class="rescued-plant"
+            src="https://www.theleafyplant.com/uploads/1/2/5/2/125274468/s220733784862813675_p248_i22_w3936.jpeg?width=2560">
+        </div>
+        <div class="column-gallery">
+          <img class="rescued-plant"
+            src="https://freight.cargo.site/t/original/i/8effd1bf6a23fabe683ac2ba75a7510088708210ef5ec16d7ffa86813331fa3f/2014-05-29-12.03.20.jpg">
+        </div>
+      </div>
+    </main>
+  </div>
+  <span class="credits">Coded by Beata Dluzniewska</span>
+  <script>
+    function updateHeading(newHeading) {
+      let heading = document.querySelector("h1");
+      heading.innerHTML = newHeading;
+      document.getElementById("newHeading").style.color = "#008b85";
+    }
+    function newPlant() {
+      let name = prompt("What is your name?");
+      let plant = prompt("Are you looking for a new plant?(yes/no)");
+      plant = plant.toLowerCase();
+      plant = plant.trim();
+      if (plant === "yes") {
+        updateHeading(
+          `That's great ${name},<br> you can adopt a plant today🍀! <br> Scroll down to find out more 👇`
+        );
+      } else {
+        if (plant === "no") {
+          updateHeading(
+            `It's ok ${name}, come back, when you change your mind 🥀`
+          );
+        } else {
+          updateHeading(`Sorry ${name} I don't understand, try again! 🍃👀`);
+        }
+      }
+    }
+
+    let applyButton = document.querySelector("button");
+    applyButton.addEventListener("click", newPlant);
+  </script>
+</body>
+</head>
+
+<body>
